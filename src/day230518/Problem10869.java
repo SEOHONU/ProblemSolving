@@ -14,7 +14,7 @@ public class Problem10869 {
 			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 			int A = Integer.parseInt(st.nextToken());
 			int B = Integer.parseInt(st.nextToken());
-			if(0 < A && 0 < B && A < 10 && B < 10) {
+			if(0 < A && 0 < B && A < 10000 && B < 10000) {
 				bw.write(A + B + "\n");
 				bw.write(A - B + "\n");
 				bw.write(A * B + "\n");
